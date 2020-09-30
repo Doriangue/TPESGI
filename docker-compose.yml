@@ -1,0 +1,24 @@
+version:
+services:
+  mariadb:
+    image:
+    environment:
+      MYSQL_ROOT_PASSWORD:
+      MYSQL_DATABASE:
+  phpmyadmin:
+    image:
+    environment:
+      PMA_HOST:
+    ports:
+      -
+  wordpress:
+    image:
+    volumes:
+      -
+    ports:
+      -
+    environment:
+      WORDPRESS_DB_HOST:
+      WORDPRESS_DB_USER:
+      WORDPRESS_DB_PASSWORD:
+      WORDPRESS_DB_NAME:
