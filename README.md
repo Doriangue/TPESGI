@@ -1,6 +1,6 @@
 # TPESGI
 ## Develop
-## Instalation
+## Installation
 ```bash
 docker-compose up -d
 ```
