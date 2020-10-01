@@ -13,3 +13,5 @@ Pour arrêter l'exécution :
 ```bash
 makedown
 ```
+
+Note : faire composer install avec php v.3 (erreur à régler dans le futur)
