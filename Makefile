@@ -1,5 +1,4 @@
 up:
-	composer install 
 	docker-compose up -d
 
 down :
