@@ -11,7 +11,11 @@ docker-compose up -d
 
 Pour arrêter l'exécution :
 ```bash
-makedown
+make down
+```
+OU
+```bash
+docker-compose down
 ```
 
-Note : faire composer install avec php v.3 (erreur à régler dans le futur)
+Note : faire `composer install` à l'intérieur du conteneur (`docker exec -it tpesgi_app_1 sh` pour y accéder)

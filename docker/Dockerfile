@@ -2,4 +2,5 @@ FROM php:7.3-alpine
 
 COPY . /
 
-CMD php -S 0.0.0.0:80 app/public/index.php && composer install --no-dev --no-interaction -o
+COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+CMD php -S 0.0.0.0:80 app/public/index.php
