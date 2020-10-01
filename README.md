@@ -1,11 +1,6 @@
 # TPESGI
 
-Pour installer/démarrer le projet, dans un terminal exécuter la commande :
-```bash
-make up
-```
+Pour démarrer le projet, dans un terminal executer la commande : make up
+Pour arrêter l'execution : make down
 
-Pour arrêter l'exécution :
-```bash
-makedown
-```
+
