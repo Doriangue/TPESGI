@@ -18,4 +18,4 @@ OU
 docker-compose down
 ```
 
-Note : faire `composer install` à l'intérieur du conteneur (`docker exec -it tpesgi_app_1 sh` pour y accéder)
+Note : faire `cd app` puis `composer install` à l'intérieur du conteneur (`docker exec -it tpesgi_app_1 sh` pour y accéder)
