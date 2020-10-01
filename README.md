@@ -1,8 +1,11 @@
 # TPESGI
-## Develop
-## Installation
+
+Pour installer/démarrer le projet, dans un terminal exécuter la commande :
 ```bash
-docker-compose up -d
+make up
 ```
 
-#Release
+Pour arrêter l'exécution :
+```bash
+makedown
+```
